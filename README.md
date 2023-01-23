@@ -22,6 +22,7 @@
     ```
     dotnet new sln -o GRC.Monolith
     cd GRC.Monolith
+    mkdir doc
     mkdir src
     mkdir test
     ```
