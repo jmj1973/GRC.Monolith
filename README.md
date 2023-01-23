@@ -19,6 +19,18 @@
 
  1. Create a blank soloution
     - Folder structure: src and tests
+    ```
+    dotnet new sln -o GRC.Monolith
+    cd GRC.Monolith
+    mkdir src
+    mkdir test
+    ```
+    
+ 2. Setup the project
+    ```
+    dotnet new mvc -f net6.0 -au Individual -n GRC.Monolith -o src/GRC.Monolith
+    dotnet sln add src/GRC.Monolith/GRC.Monolith.csproj
+    ```
 
 
 
